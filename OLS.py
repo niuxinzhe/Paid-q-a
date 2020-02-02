@@ -1,7 +1,5 @@
 """
 OLS.py mainly trains OLS model and completes the OLS tests.
-Before do the training, add word_num_log, question lengh, the proportion of total question's topics/labels and topic heat into data.
-Then MinmaxScaler and Logarithm are done to the independent variables.
 
 def OLS_train gets the OLS result and you can use the .summary() to see it.
 def Pearson calculates the Pearson coefficient.
