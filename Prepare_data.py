@@ -1,14 +1,9 @@
 """
-Prepare_data.py makes 3 attempts.
-First is to get Sina_cut which is the record of word segmentation for questions. P.S. It dels the stopwords.
-Second is to calculate the number of stopwords of each question.
-#  (It is not used now.)Third is to get the topic of each question based on LDA model
+Cleaning data for Econometric model.
+    norm_log is for log transformation.
+    fk counts readability.
+    text_cut completes the word segmentation and stopwords deletion.
 
-def text_cut completes the word segmentation and stopwords deletion.
-def cut_words only does the word segmentation.
-#  (It is not used now.)def get_question_lda does the LDA topic training.
-P.S. The def text_cut was written in another py, so I copy it into this py without rewriting. And to get the text which
-    contains stopords, I write the def cut_words. Therefore, these two are overlap.
 """
 
 import pandas as pd
